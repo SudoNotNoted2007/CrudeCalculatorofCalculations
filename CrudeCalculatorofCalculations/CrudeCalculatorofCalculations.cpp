@@ -1,13 +1,13 @@
 // What are the wanted outcomes of the app?
 // 1) Call a dozen unique functions that do some thing, that call eachother.
 // 2) Make it complete a task in an overcomplicated way (preferrably, using std::cin to take user inputs for numbers to do multiplication, divison, addition etc)
-// 3) Confuse the heck out of Jias! :)
 
 // Program Brainstorming
 // -- A math calculator? Remember, 2 + 3 * 9 would be = 29! But probably very simple math...
 // -- Mini-Choice app? (A small set of choices lead to a unique outcome)
 // -- Idk
 
+// This is v1.0! Check on Github for any recent releases: https://github.com/SudoNotNoted2007/CrudeCalculatorofCalculations/releases
 
 /* #NOTES FROM ROLLING ROCK!!
 1) It seems the int returntype in additionOfValues and subtractionOfValues should be replaced with void, otherwise it may not compile
@@ -16,6 +16,9 @@
 4) A note from me myself and I, Port code over to Visual Studio 2022 for a better experience
 */
 #include <iostream>
+#include <Windows.h>   //Do not deprecate, sets window title
+
+
 int typeofmathinterpreter{};		//for the std::cin output within typeofmath
 
 int closeprogram{};
@@ -67,6 +70,7 @@ int subtractionOfValues(){
 } */
 
 int main() {			//Math instructions will be handled here.
+	SetConsoleTitle(L"The Crude Calculator of Calculations"); //sets window title
 	std::cout << "Created by Sudo_NotNoted2007, newbie of C++. \n" << "Date of creation: 11/1/2024 7:24PM CST. This program is open-source, too. If you like fiddling. \n";
 
 	std::cout << "Build 211H24. \n";
