@@ -6,6 +6,7 @@ The CrudeCalculatorofCalculations is a simple test software, made by me (SudoNot
 
 Simply, as the name suggests; it's a really crudely made calculator. The code is very overcomplicated because I still need to learn more C++, lol.
 Head over to the releases to find the latest version. I will update this software accordingly overtime during my C++ learning journey.
+SMALL NOTE: The software may be detected as a virus by your operating system. The software is not a virus, but if you are still unsure--you can always review the source code.
 
 # What can I do with this software?
 Well, I don't understand an MIT license much but, that.
